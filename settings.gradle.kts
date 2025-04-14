@@ -20,7 +20,9 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Demo Application"
+
 include(":app")
+
 include(":api")
 include(":api:data")
 include(":api:network")

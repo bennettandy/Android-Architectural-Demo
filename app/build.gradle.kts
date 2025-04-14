@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kover.coverage)
 }
 
 android {
@@ -51,4 +52,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    kover(project(":api:data"))
+    kover(project(":api:fake"))
+    kover(project(":api:network"))
+    kover(project(":api:repository"))
+
 }

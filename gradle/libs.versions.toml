@@ -13,6 +13,7 @@ lifecycleViewmodelKtx = "2.8.7"
 navigationFragmentKtx = "2.8.9"
 navigationUiKtx = "2.8.9"
 jetbrainsKotlinJvm = "2.0.21"
+kover = "0.9.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -32,4 +33,5 @@ android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
 android-library = { id = "com.android.library", version.ref = "agp" }
+kover-coverage = { id = "org.jetbrains.kotlinx.kover", version.ref = "kover" }
 
